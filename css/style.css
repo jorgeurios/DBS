@@ -114,8 +114,8 @@
     align-items: center;
     border: 1px solid #bbbbbb;
     border-radius: 20px;
+    transition: height 12s, width 1s, transform;
 
-    ;
 }
 
 .title-cursos{
@@ -451,3 +451,10 @@
    
 
                         }
+
+/* ANIMACIONES Y GRADIENTES */
+
+.body {
+    background-image: radial-gradient(cicle, #875949, #898399);
+
+}
